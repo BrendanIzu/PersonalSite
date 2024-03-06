@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import styled from 'styled-components'
-import me from "../assets/images/me.jpeg";
 
 const Body = styled.div`
   display: flex;
@@ -26,7 +25,6 @@ const Links = styled.div`
   display: flex;
   padding: 20px;
   gap: 30px;
-  
 `
 
 const Image = styled.img`
@@ -44,7 +42,7 @@ export default function Home() {
     <>
       <Navbar/>
       <Body>
-        <Image src={me} width="600px" height="450px"></Image>
+        <Image src={require("../assets/images/me.jpeg")} width="600px" height="450px"></Image>
         <div>
           <Note>
             <p>
