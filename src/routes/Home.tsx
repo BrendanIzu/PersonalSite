@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import styled from 'styled-components'
-import me from "../assets/me.jpeg";
+import me from "../assets/images/me.jpeg";
 
 const Body = styled.div`
   display: flex;
