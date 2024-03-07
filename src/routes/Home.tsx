@@ -8,7 +8,7 @@ const Body = styled.div`
   height: auto;
   width: auto;
   gap: 100px;
-  padding: 80px 40px 20px 40px;
+  padding: 80px 40px 120px 40px;
   background-size: 15px 15px;
   background-image: linear-gradient(to right, lightgrey 0.5px, transparent 0.5px), linear-gradient(to bottom, lightgrey 0.5px, transparent 0.5px);
 `
