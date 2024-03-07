@@ -5,7 +5,8 @@ const Body = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 600px;
+  height: auto;
+  width: auto;
   gap: 100px;
   padding: 80px 40px 20px 40px;
   background-size: 15px 15px;
@@ -13,10 +14,12 @@ const Body = styled.div`
 `
 
 const Note = styled.div`
-  width: 400px;
-  height: 410px;
+  width: auto;
+  max-width: 400px
+  height: auto;
+  max-width: 410px;
   box-sizing: border-box;
-  padding: 60px;
+  padding: 50px 60px 130px 60px;
   font-family: "Permanent Marker", cursive;
   background: #feea79;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -30,6 +33,7 @@ const Links = styled.div`
 
 const Image = styled.img`
   box-shadow: 6px 6px;
+  max-width: 300
 `
 
 const Link = styled.h1`
@@ -43,7 +47,7 @@ export default function Home() {
     <>
       <Navbar/>
       <Body>
-        <Image src={process.env.PUBLIC_URL +"/me.jpeg"} width="480px" height="360px"></Image>
+        <Image src={process.env.PUBLIC_URL +"/me.jpeg"} width="400" height="300"></Image>
         <div>
           <Note>
             <p>
