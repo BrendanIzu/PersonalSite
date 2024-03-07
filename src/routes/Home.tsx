@@ -42,7 +42,7 @@ export default function Home() {
     <>
       <Navbar/>
       <Body>
-        <Image src="/me.jpeg" width="600px" height="450px"></Image>
+        <Image src={process.env.PUBLIC_URL +"/me.jpeg"} width="600px" height="450px"></Image>
         <div>
           <Note>
             <p>
