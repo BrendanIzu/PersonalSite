@@ -9,7 +9,7 @@ const Body = styled.div`
   align-items: center;
   gap: 70px;
   height: 1500px;
-  padding: 20px 40px 20px 40px;
+  padding: 0px 40px 20px 40px;
   background-size: 15px 15px;
   background-image: linear-gradient(to right, lightgrey 0.5px, transparent 0.5px), linear-gradient(to bottom, lightgrey 0.5px, transparent 0.5px);
 `

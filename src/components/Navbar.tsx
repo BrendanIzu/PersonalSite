@@ -5,7 +5,7 @@ const Body = styled.div`
   display: flex;
   justify-content: center;
   gap: 50px;
-  background: white;
+  background: #FFF0DB;
   padding: 50px 40px 60px 40px;
   border-bottom: solid #30363d;
 `
