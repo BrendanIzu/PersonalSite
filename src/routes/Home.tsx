@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Body = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   height: 600px;
   gap: 100px;
   padding: 80px 40px 20px 40px;
@@ -42,7 +43,7 @@ export default function Home() {
     <>
       <Navbar/>
       <Body>
-        <Image src={process.env.PUBLIC_URL +"/me.jpeg"} width="600px" height="450px"></Image>
+        <Image src={process.env.PUBLIC_URL +"/me.jpeg"} width="480px" height="360px"></Image>
         <div>
           <Note>
             <p>
